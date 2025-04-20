@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Catfolio</h1>
+    <section id="portfolio">
+    <div class="portfolio-container">
+
+        <!-- Header row -->
+        <div class="portfolio-row header-row">
+          <div class="cell">Project Name</div>
+          <div class="cell">Date</div>
+          <div class="cell">Description</div>
+          <div class="cell">Thumbnail</div>
+        </div>
+        <!-- Project row -->
+    <div class="portfolio-row">
+        <div class="cell">Perfect Landing Page</div>
+        <div class="cell">Janaury 2024</div>
+        <div class="cell">A delightful landing page for a luxury cat condo.</div>
+        <div class="cell">
+            <img src="images/1.png" alt="Project One thumbnail" class="orange">
+        </div>
+      </div>
+  
+      <div class="portfolio-row">
+        <div class="cell">Kitty Commerce</div>
+        <div class="cell">February 2024</div>
+        <div class="cell">An online store selling the fanciest catnip toys.</div>
+        <div class="cell">
+            <img src="images/2.png" alt="Project Two thumbnail" class="pink">
+        </div>
+      </div>
+
+      <div class="portfolio-row">
+        <div class="cell">CatChat Social</div>
+        <div class="cell">June 2024</div>
+        <div class="cell">A social media site for cats to meow and hiss!.</div>
+        <div class="cell">
+            <img src="images/3.png" alt="Project Two thumbnail" class="purple">
+        </div>
+      </div>
+    </section>
+    <section id="Contact-me">
+    <h2>Contact Me</h2>
+    
+    <form action="submit_form.php" method="POST">
+        <div class="form-row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>          <input type="email" id="email" name="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" class="long-message" rows="4" required></textarea>
+      
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <footer>
+        <p>&copy; 2024 CodeSpace. All rights reserved.</p>
+      </footer>
+      </section>
+      
+
+
+
+     
+<body>
+</html>

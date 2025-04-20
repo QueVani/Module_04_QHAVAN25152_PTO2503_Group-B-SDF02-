@@ -1,0 +1,114 @@
+body 
+ {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 40px;
+  color: #333;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.portfolio-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cell {
+  flex: 1;
+  text-align: left;
+}
+
+.cell img {
+  width: 300px;
+  max-width: 800px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  
+  transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+  border-color: #007bff; /* bright blue on hover */
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.5);
+  transform: scale(1.02)
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+label {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+textarea.long-message {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+  line-height: 1.4;
+  height: 40px;             /* Same height as input visually */
+  margin-top: -16px;        /* Push the box upward */
+  margin-bottom: -16px;     /* Prevent spacing issues */
+}
+button {
+  background-color: #c1c6ca;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  height: 40px;
+}
+button:hover {
+  background-color: #b9c0c6;
+}
+html {
+  scroll-behavior: smooth;
+}
+.side-borders {
+  border-left: 12x solid #ff6600;  /* Orange left border */
+  border-right: 12px solid #ff6600; /* Orange right border */
+  border-top: none;
+  border-bottom: none;
+  padding: 5px; /* Optional, for spacing inside the border */
+}
+.border-orange {
+  border-left: 12px solid orange;
+  border-right: 12px solid orange;
+}
+
+.border-Pink {
+  border-left: 12px solid rgb(225, 65, 158);
+  border-right: 12px solid rgb(225, 65, 140);
+}
+
+.border-Purple {
+  border-left: 12px solid rgb(120, 46, 139);
+  border-right: 12px solid rgb(137, 46, 139);
+}
